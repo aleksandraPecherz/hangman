@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<section id="hangman">
+    <div id="word"></div>
+    <div id="category"></div>
+    <div id="output">
+        <div class="step">
+            <img src="images/1.png" alt="">
+        </div>
+    </div>
+    <div id="alphabet">
+        <div id="letters"></div>
+    </div>
+    <button id="newGame">New Game</button>
+</section>
+
+<body>
+    <script type="module" src="app/Game.js"></script>
+    <script type="module" src="app/app.js"></script>
+</body>
+
+</html>
