@@ -7,7 +7,7 @@ Simple web game using VanillaJS.
 * [Technologies](#technologies)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is simple game created using VanillaJS.
 	
 ## Technologies
 Project is created with:
